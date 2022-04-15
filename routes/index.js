@@ -1,5 +1,6 @@
 var express = require('express');
 var router = express.Router();
+const {blogs} = require('../models');
 const {Compunies} = require('../models');
 
 
@@ -14,8 +15,9 @@ router.get('/index.html', function(req, res, next) {
 
 
 router.get('/blog.html', async function(req, res, next) {
-  let compunies = await Compunies.findAll();
-  res.render('blog', {compunies});
+  let blogList = await blogs.findAll();
+  console.log(123, blogList);
+  res.render('blog', {blogList});
 
 });
 
@@ -42,8 +44,10 @@ router.get('/job_details.html', function(req, res, next) {
 });
 
 
-router.get('/jobs.html', function(req, res, next) {
-  res.render('jobs');
+router.get('/jobs.html', async function(req, res, next) {
+  let CompuniesList = await Compunies.findAll();
+  console.log(123, CompuniesList);
+  res.render('jobs', {CompuniesList});
 });
 
 

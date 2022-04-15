@@ -23,6 +23,8 @@ fs
   .forEach(file => {
     const model = require(path.join(__dirname, file))(sequelize, Sequelize.DataTypes);
 
+    //model.sync({force:true});
+
       db[model.name] = model;
 
 
