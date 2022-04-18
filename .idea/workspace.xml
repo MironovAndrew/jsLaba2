@@ -1,17 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dfdd4e71-cd07-46d5-bf58-ce5641a57497" name="Default Changelist" comment="First">
-      <change afterPath="$PROJECT_DIR$/migrations/20220324082521-blog-compuny.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/blogs.js" afterDir="false" />
+    <list default="true" id="dfdd4e71-cd07-46d5-bf58-ce5641a57497" name="Default Changelist" comment="Second">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/bootstrap.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/blog.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/blog.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/index.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.ejs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/jobs.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/jobs.ejs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +37,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/migrations" />
+    <property name="last_opened_file_path" value="F:/WEB/jsLaba2" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
@@ -112,7 +106,10 @@
       <workItem from="1650034009889" duration="2178000" />
       <workItem from="1650036387504" duration="3074000" />
       <workItem from="1650039547783" duration="9176000" />
-      <workItem from="1650050652925" duration="4854000" />
+      <workItem from="1650050652925" duration="5554000" />
+      <workItem from="1650095874876" duration="1037000" />
+      <workItem from="1650097260641" duration="5015000" />
+      <workItem from="1650253528601" duration="469000" />
     </task>
     <task id="LOCAL-00001" summary="First">
       <created>1650041284534</created>
@@ -121,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650041284535</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Second">
+      <created>1650055816634</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1650055816634</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,6 +144,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First" />
-    <option name="LAST_COMMIT_MESSAGE" value="First" />
+    <MESSAGE value="Second" />
+    <option name="LAST_COMMIT_MESSAGE" value="Second" />
   </component>
 </project>

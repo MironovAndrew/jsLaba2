@@ -2,14 +2,17 @@ var express = require('express');
 var router = express.Router();
 const {blogs} = require('../models');
 const {Compunies} = require('../models');
+const {Customers} = require('../models');
 
 
-router.get('/', function(req, res, next) {
-  res.render('index');
+router.get('/', async function(req, res, next) {
+  let CustomersList = await Customers.findAll();
+  res.render('index', {CustomersList});
 });
 
-router.get('/index.html', function(req, res, next) {
-  res.render('index');
+router.get('/index.html', async function(req, res, next) {
+  let CustomersList = await Customers.findAll();
+  res.render('index', {CustomersList});
 });
 
 

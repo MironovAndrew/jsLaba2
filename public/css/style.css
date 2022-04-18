@@ -1767,6 +1767,9 @@ h3 {
   border-radius: 50%;
   width: 228px;
   height: 228px;
+
+
+
 }
 
 /* line 18, ../../Arafath/CL/December/235. Job board/HTML/scss/_testmonial.scss */
@@ -3297,7 +3300,7 @@ h3 {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
-  padding: 15px;
+  padding: 0px;
   background: #F5F7FA;
   margin-right: 25px;
   border: 1px solid #F0F0F0;
@@ -3574,7 +3577,8 @@ h3 {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
-  padding: 35px 45px;
+  /*padding: 25px 45px ;*/
+
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -3598,7 +3602,7 @@ h3 {
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
-  margin: auto;
+  margin: inherit;
 }
 
 /* line 25, ../../Arafath/CL/December/235. Job board/HTML/scss/_candidates.scss */
